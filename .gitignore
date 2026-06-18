@@ -1,0 +1,48 @@
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Docker runtime
+.dockerignore
+docker-compose.override.yml
+
+# Labs & experiments
+labs/**/output/
+labs/**/*.log
+labs/**/*.tmp
+labs/**/volumes/
+labs/**/.env.local
+
+# Build artifacts
+*.tar.gz
+*.tar
+*.zip
+dist/
+build/
+
+# Node (if any frontend labs)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if any script labs)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Test outputs
+*.coverage
+.pytest_cache/
+.mocha_cache/
+
+# Personal notes (don't commit)
+PERSONAL_NOTES.md
+TODO_scratch.md
